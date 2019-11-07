@@ -1,0 +1,172 @@
+/* Additional css file because scss doesn't seem to be friend with css variables */
+
+.color{
+	--color-yellow: #f8b423;
+	--color-yellow-h: 41;
+  	--color-yellow-s: 94%;
+
+	--color-green: #53C126;
+	--color-green-h: 103;
+  	--color-green-s: 67%;
+
+	--color-blue: #2A80CD;
+	--color-blue-h: 208;
+  	--color-blue-s: 66%;
+
+	--color-red: #e83f3c;
+	--color-red-h: 1;
+  	--color-red-s: 79%;
+
+}
+	.color--dark{
+		--color-yellow: #ee9e2a;
+		--color-yellow-h: 36;
+		--color-yellow-s: 85%;
+
+		--color-green: #63c15e;
+		--color-green-h: 117;
+		--color-green-s: 44%;
+
+		--color-blue: #0024bb;
+		--color-blue-h: 228;
+	  	--color-blue-s: 100%;
+
+		--color-red: #c2264e;
+		--color-red-h: 345;
+	  	--color-red-s: 67%;
+	}
+
+
+.color-yellow{
+	fill: #f8b423;
+	fill: var(--color-yellow);
+}
+	.color-yellow--80{
+		fill: #f9c34d;
+		fill: hsl( var(--color-yellow-h), var(--color-yellow-s) , 64%);
+	}
+	.color-yellow--70{
+		fill: #facb66;
+		fill: hsl( var(--color-yellow-h), var(--color-yellow-s) , 69%);
+	}
+	.color-yellow--50{
+		fill: #fcda92;
+		fill: hsl( var(--color-yellow-h), var(--color-yellow-s) , 78%);
+	}
+	.color-yellow--30{
+		fill: #fde9bf;
+		fill: hsl( var(--color-yellow-h), var(--color-yellow-s) , 87%);
+	}
+	.color-yellow--20{
+		fill: #fef0d2;
+		fill: hsl( var(--color-yellow-h), var(--color-yellow-s) , 91%);
+	}
+
+.color-green{
+	fill: #53C126;
+	fill: var(--color-green);
+}
+	.color-green--80{
+		fill: #89e166;
+		fill: hsl( var(--color-green-h), var(--color-green-s) , 64%);
+	}
+	.color-green--70{
+		fill: #99e57b;
+		fill: hsl( var(--color-green-h), var(--color-green-s) , 69%);
+	}
+	.color-green--50{
+		fill: #b7eca1;
+		fill: hsl( var(--color-green-h), var(--color-green-s) , 78%);
+	}
+
+.color-blue{
+	fill: #2A80CD;
+	fill: var(--color-blue);
+}
+	.color-blue--90{
+		fill: #3c8fd7;
+		fill: hsl( var(--color-blue-h), var(--color-blue-s) , 54%);
+	}
+	.color-blue--80{
+		fill: #67a7e0;
+		fill: hsl( var(--color-blue-h), var(--color-blue-s) , 64%);
+	}
+	.color-blue--70{
+		fill: #7cb3e4;
+		fill: hsl( var(--color-blue-h), var(--color-blue-s) , 69%);
+	}
+	.color-blue--60{
+		fill: #8dbde8;
+		fill: hsl( var(--color-blue-h), var(--color-blue-s) , 73%);
+	}
+	.color-blue--50{
+		fill: #a2c9ec;
+		fill: hsl( var(--color-blue-h), var(--color-blue-s) , 78%);
+	}
+	.color-blue--40{
+		fill: #aaceee;
+		fill: hsl( var(--color-blue-h), var(--color-blue-s) , 80%);
+	}
+	.color-blue--30{
+		fill: #c8dff4;
+		fill: hsl( var(--color-blue-h), var(--color-blue-s) , 87%);
+	}
+	.color-blue--20{
+		fill: #d9e9f7;
+		fill: hsl( var(--color-blue-h), var(--color-blue-s) , 91%);
+	}
+	.color-blue--5{
+		fill: #f2f8fc;
+		fill: hsl( var(--color-blue-h), var(--color-blue-s) , 97%);
+	}
+
+.color-red{
+	fill: #e83f3c;
+	fill: var(--color-red);
+}
+	.color-red--stroke{
+		stroke: #e83f3c;
+		stroke: var(--color-red);
+	}
+	.color-red--90{
+		fill: #e6302d;
+		fill: hsl( var(--color-red-h), var(--color-red-s) , 54%);
+	}
+	.color-red--80{
+		fill: #ec5d5b;
+		fill: hsl( var(--color-red-h), var(--color-red-s) , 64%);
+	}
+	.color-red--70{
+		fill: #ee7472;
+		fill: hsl( var(--color-red-h), var(--color-red-s) , 69%);
+	}
+	.color-red--60{
+		fill: #f18684;
+		fill: hsl( var(--color-red-h), var(--color-red-s) , 73%);
+	}
+	.color-red--40{
+		fill: #f4a5a4;
+		fill: hsl( var(--color-red-h), var(--color-red-s) , 80%);
+	}
+	.color-red--5{
+		fill: #fdf2f1;
+		fill: hsl( var(--color-red-h), var(--color-red-s) , 97%);
+	}
+
+.title--intro{
+	color: hsl( var(--color-blue-h), var(--color-blue-s) , 33%);
+}
+
+.section--banner{
+	background: linear-gradient(90deg, #7cb3e4 0%, #569ddc 100%);
+	background: linear-gradient(90deg,
+		hsl( var(--color-blue-h),var(--color-blue-s) , 69%) 0%,
+		hsl( var(--color-blue-h), var(--color-blue-s) , 60%) 100%);
+}
+
+
+
+
+
+
+
